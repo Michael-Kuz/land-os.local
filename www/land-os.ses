@@ -1,0 +1,11 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="3">
+            <File firstVisibleLine="847" xOffset="0" scrollWidth="1011" startPos="18156" endPos="18165" selMode="0" lang="CSS" encoding="-1" filename="C:\WebServers\home\land-os.ru\www\styles\main.css" backupFilePath="" originalFileLastModifTimestamp="1504206697" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1592" startPos="254" endPos="254" selMode="0" lang="&#x041E;&#x0431;&#x044B;&#x0447;&#x043D;&#x044B;&#x0439; &#x0422;&#x0435;&#x043A;&#x0441;&#x0442;" encoding="-1" filename="C:\WebServers\home\land-os.ru\www\tmpl\index.tpl" backupFilePath="" originalFileLastModifTimestamp="1504205128" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1128" startPos="347" endPos="527" selMode="0" lang="Javascript" encoding="-1" filename="C:\WebServers\home\land-os.ru\www\js\functions.js" backupFilePath="" originalFileLastModifTimestamp="1504206776" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="872" startPos="129" endPos="129" selMode="0" lang="PHP" encoding="-1" filename="C:\WebServers\home\land-os.ru\www\get_token.php" backupFilePath="" originalFileLastModifTimestamp="1504637652" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

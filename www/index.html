@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru" >
+	<head>
+		<title>Landing page под ключ без предоплаты.</title>
+		<meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="styles/main.css">
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</head>
+	<body>
+		<div class="parent-popup">
+			<div class="popup">
+				<div class="request main-popup">
+					<form name="call-back" class="form-bottom">
+						<div class="form-table form-table-add">
+							<div class="close-popup">
+								<img src="images/but_close.png" alt="Закрыть">
+							</div>
+							<h3>Заполните форму<br>и я свяжусь с Вами!</h3>
+							<img src="images/call_back_form_name.png" alt="" title=""><input type="text" name="name" pattern="^[0-9a-zA-Zа-яА-ЯёЁ_ ]+$" title="Допустимы буквы и цифры" maxlength="100" value="" required />
+							<img src="images/call_back_form_phone.png" alt="" title=""><input type="tel" name="phone" title="Десять цифр без пробелов" pattern='[0-9]{10}' value="" required />
+							<img src="images/call_back_form_email.png" alt="" title=""><input type="email" name="email" pattern='^[a-z0-9_][a-z0-9\._-]*@([a-z0-9]+([a-z0-9-]*[a-z0-9]+)*\.)+[a-z]+$' value="" />
+							<label>Введите код с картинки:</label>
+							<input type="text" name="captcha" value="" autocomplete="off" required />
+							<div class="captcha">
+								<img class="change" src="images/update.png" alt="Обновить" />
+								<img class="canvas" src="captcha.php" alt="Капча" />
+							</div>
+						</div>
+						<button class="button-bot" data-hover="Отправить">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<nav class="top-menu">
+				<a href="#advantages" class="top-menu-item link-effect-1">Преимущества</a>
+				<a href="#steps" class="top-menu-item link-effect-1">Порядок работы</a>
+				<a href="#efficiency" class="top-menu-item link-effect-1">Эффективность</a>
+				<a href="#works" class="top-menu-item link-effect-1">Работы и цены</a>
+				<a  href="#guarantee" class="top-menu-item link-effect-1"  >Гарантия</a>
+				<a href="#" id="popup" class="top-menu-item link-effect-1">Оформить заявку</a>
+				<a href="#contacts" class="top-menu-item link-effect-1">Контакты</a>
+			</nav>
+			<div class="header">
+				<h1>Landing page под ключ без предоплаты</h1>
+				<img class="pic-header-1" src="images/header_pic1.png" alt="" title="" />
+				<form name="call-back" class="call-back">
+					<div class="form-table">
+						<h2 class="call-back-title" >Закажите обратный звонок.</h2>
+						<img src="images/call_back_form_name.png" alt="" title=""><input type="text" name="name" maxlength="100" value="" required />
+						<img src="images/call_back_form_phone.png" alt="" title=""><input type="tel" name="phone" pattern='[0-9]{10}' value="" required />
+						<img src="images/call_back_form_email.png" alt="" title=""><input type="email" name="email"  value="" />
+						<label>Введите код с картинки:</label>
+						<input type="text" name="captcha" value="" autocomplete="off" required />
+						<div class="captcha">
+							<img class="change" src="images/update.png" alt="Обновить" />
+							<img class="canvas" src="captcha.php" alt="Капча" />
+						</div>
+					</div>
+					<button class="button" data-hover="Отправить" >Отправить</button>
+				</form>
+			</div>
+			<div id="advantages">
+				<h2>Наши преимущества</h2>
+				<div class="adv-wrap">
+					<div class="item-advnt" >
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_1.png" alt="" title="" />
+							</div>
+							<p>Срок разработки<br>не более 15 дней.</p>
+							<hr/>
+						</div>
+						<div class="circle-icon">
+							<img src="images/advent_pic_1.png" alt="" title="" />
+						</div>
+						<p>Срок разработки<br>не более 15 дней.</p>
+					</div>
+					<div class="item-advnt">
+						<div class="circle-icon">
+							<img src="images/advent_pic_2.png" alt="" title="" />
+						</div>
+						<p>Высокое<br>качество работ.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_2.png" alt="" title="" />
+							</div>
+							<p>Высокое<br>качество работ.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-advnt">
+						<div class="circle-icon">
+							<img src="images/advent_pic_3.png" alt="" title="" />
+						</div>
+						<p>Делаем<br>все под ключ.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_3.png" alt="" title="" />
+							</div>
+							<p>Делаем<br>все под ключ.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-advnt">
+						<div class="circle-icon">
+							<img src="images/advent_pic_4.png" alt="" title="" />
+						</div>
+						<p>Бесплатный запуск<br>рекламной компании<br>в Яндекс-Директ.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_4.png" alt="" title="" />
+							</div>
+							<p>Бесплатный запуск<br>рекламной компании<br>в Яндекс.Директ.</p>
+							<hr/>
+							<p>Бюджет на запуск рекламной компании уже входит в стоимость создания лендинга.</p>
+						</div>
+					</div>
+					<div class="item-advnt">
+						<div class="circle-icon">
+							<img src="images/advent_pic_5.png" alt="" title="" />
+						</div>
+						<p>Делаем<br>мультилендинг.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_5.png" alt="" title="" />
+							</div>
+							<p>Делаем<br>мультилендинг.</p>
+							<hr/>
+							<p>Мультилендинг  содержит адаптивные заголовки, которые меняются в зависимости от поискового запроса, по которому пришел потенциальный клиента на Вашу страницу. Эффективность страницы увеличивается в разы по сравнению с обычным статичным лендингом.</p>
+						</div>
+					</div>
+					<div class="item-advnt">
+						<div class="circle-icon">
+							<img src="images/advent_pic_6.png" alt="" title="" />
+						</div>
+						<p>Проводим<br>SPLIT - тестирование.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_6.png" alt="" title="" />
+							</div>
+							<p>Проводим<br>SPLIT - тестирование.</p>
+							<hr/>
+							<p>Например, берётся цена и изменяется в сторону увеличения. Дальше половина клиентов видят повышенную цену, а другая половина – старую цену. И смотрится, от какой половины в итоге больше заявок. Очень часто получается, что при увеличении цены на 50%, число заявок уменьшается лишь на 10% или не изменяется вовсе.  Возможен даже неожиданный эффект, когда количество продаж становится даже больше, поэтому прибыль вырастает сильнее, чем цена.</p>
+						</div>
+					</div>
+					<div class="item-advnt">
+						<div class="circle-icon">
+							<img src="images/advent_pic_7.png" alt="" title="" />
+						</div>
+						<p>Без предоплаты!</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_7.png" alt="" title="" />
+							</div>
+							<p>Без предоплаты!</p>
+							<hr/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="steps">
+				<h2>Порядок работы</h2>
+				<div class="adv-wrap">
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_1.png" alt="" title="" />
+						</div>
+						<p>Вы оставляете заявку.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_1.png" alt="" title="" />
+							</div>
+							<p>Вы оставляете заявку.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_2.png" alt="" title="" />
+						</div>
+						<p>Мы созваниваемся с Вами и консультируем Вас.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_2.png" alt="" title="" />
+							</div>
+							<p>Мы созваниваемся с Вами и консультируем Вас.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_3.png" alt="" title="" />
+						</div>
+						<p>Мы готовим прототип, в который Вы можете вносить коррективы.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_3.png" alt="" title="" />
+							</div>
+							<p>Мы готовим прототип, в который Вы можете вносить коррективы.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_4.png" alt="" title="" />
+						</div>
+						<p>Вы утверждаете прототип и оплачиваете работу по дизайн-макету лендинга.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_4.png" alt="" title="" />
+							</div>
+							<p>Вы утверждаете прототип и оплачиваете работу по дизайн-макету лендинга.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_5.png" alt="" title="" />
+						</div>
+						<p>Я разрабатываю лендинг, в который Вы также можете вносить коррективы.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_5.png" alt="" title="" />
+							</div>
+							<p>Я разрабатываю лендинг, в который Вы также можете вносить коррективы.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_6.png" alt="" title="" />
+						</div>
+						<p>Запуск рекламы и получение первых потенциальных клиентов.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_6.png" alt="" title="" />
+							</div>
+							<p>Запуск рекламы и получение первых потенциальных клиентов.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_4.png" alt="" title="" />
+						</div>
+						<p>Оплата лендинга и передача всех исходников.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_4.png" alt="" title="" />
+							</div>
+							<p>Оплата лендинга и передача всех исходников.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-steps">
+						<div class="circle-icon">
+							<img src="images/steps_pic_8.png" alt="" title="" />
+						</div>
+						<p>Обучаем работе с лендингом, пост-консультация.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_8.png" alt="" title="" />
+							</div>
+							<p>Обучаем работе с лендингом, пост-консультация.</p>
+							<hr/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="separator">
+				<p>Остались вопросы?</p>
+				<p>Воспользуйтесь бесплатной консультацией!</p>
+				<button class="button-1" data-hover="Оформить консультацию" >Оформить консультацию</button>
+			</div>
+			<div id="efficiency">
+				<h2>Почему наши лендинги эффективны</h2>
+				<div class="adv-wrap">
+					<div class="item-effic">
+						<div class="circle-icon">
+							<img src="images/effic_pic_1.png" alt="" title="" />
+						</div>
+						<p>Наши лендинги оптимизированы под мобильные устройства.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/effic_pic_1.png" alt="" title="" />
+							</div>
+							<p>Наши лендинги оптимизированы под мобильные устройства.</p>
+							<hr/>
+						</div>
+					</div>
+					<div class="item-effic">
+						<div class="circle-icon">
+							<img src="images/steps_pic_5.png" alt="" title="" />
+						</div>
+						<p>Мы использую jQuery – библиотеку JavaScript,</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/steps_pic_5.png" alt="" title="" />
+							</div>
+							<p>Мы использую jQuery – библиотеку JavaScript,</p>
+							<hr/>
+							<p>которая позволяет делать очень приятную анимацию. Это делает Ваш лендинг более красивым и современным, что, безусловно, положительно скажется на конверсии.</p>
+						</div>
+					</div>
+					<div class="item-effic">
+						<div class="circle-icon">
+							<img src="images/effic_pic_2.png" alt="" title="" />
+						</div>
+						<p>Настраиваем SMS оповещения.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/effic_pic_2.png" alt="" title="" />
+							</div>
+							<p>Настраиваем SMS оповещения.</p>
+							<hr/>
+							<p>По Вашему желанию мы сможем сделать так, чтобы сразу после заявки Вам отправлялась SMS с номером телефона клиента. И Вы сразу сможете позвонить ему. Клиент будет точно приятно шокирован от Вашей скорости!</p>
+						</div>
+					</div>
+					<div class="item-effic">
+						<div class="circle-icon">
+							<img src="images/advent_pic_5.png" alt="" title="" />
+						</div>
+						<p>Настройка мультилендинга.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_5.png" alt="" title="" />
+							</div>
+							<p>Настройка мультилендинга.</p>
+							<hr/>
+							<p>Настраиваем автоматическую подстройку заголовков в лэндинге на соответствие заголовкам  в Вашей рекламной компании в Яндекс-Директе.</p>
+						</div>
+					</div>
+					<div class="item-effic">
+						<div class="circle-icon">
+							<img src="images/effic_pic_3.png" alt="" title="" />
+						</div>
+						<p>Оптимизируем рекламную кампанию.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/effic_pic_3.png" alt="" title="" />
+							</div>
+							<p>Оптимизируем рекламную кампанию.</p>
+							<hr/>
+							<p>Сюда входит анализ каждого ключевого запроса: удаление неэффективных, снижение цен на слабоэффективные и повышение цен на высокоэффективные с целью повышение числа клиентов. В результате, Вы гарантированно получаете максимальное число заявок при минимальной её стоимости.</p>
+						</div>
+					</div>
+					<div class="item-effic">
+						<div class="circle-icon">
+							<img src="images/advent_pic_6.png" alt="" title="" />
+						</div>
+						<p>Проводим SPLIT-тесты.</p>
+						<div class="item-hover">
+							<div class="circle-icon">
+								<img src="images/advent_pic_6.png" alt="" title="" />
+							</div>
+							<p>Проводим SPLIT-тесты.</p>
+							<hr/>
+							<p>Например, берётся цена и изменяется в сторону увеличения. Дальше половина клиентов видят повышенную цену, а другая половина – старую цену. И смотрится, от какой половины в итоге больше прибыль. Очень часто получается, что при увеличении цены на 50%, число заявок уменьшается лишь на 10% или не изменяется вовсе.  Возможен даже неожиданный эффект, когда количество продаж становится даже больше, поэтому прибыль вырастает сильнее, чем цена.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="works">
+				<h2>Работы и цены</h2>
+				<div class="works-wrap">
+					<div class="slider-win">
+						<ul>
+							<li class="slide-1">
+								<div class="item-works">
+									<div class="icon-work">	
+										<img src="images/works/herbal24.png" alt="">
+									</div>
+									<div class="reference">
+										<div class="v-separator" ></div>
+										<div class="statistics">
+											<p>Цена разработки <strong>10000 рублей</strong></p>
+											<p>Цена заявки <strong>140 рублей</strong></p>
+											<p>Число заявок в неделю <strong>20</strong></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slide-2">
+								<div class="item-works">
+									<div class="icon-work">						
+									</div>
+									<div class="reference">
+										<div class="v-separator" ></div>
+										<div class="statistics">
+											<p>Цена разработки <strong>10000 рублей</strong></p>
+											<p>Цена заявки <strong>140 рублей</strong></p>
+											<p>Число заявок в неделю <strong>20</strong></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slide-3">
+								<div class="item-works">
+									<div class="icon-work">						
+									</div>
+									<div class="reference">
+										<div class="v-separator" ></div>
+										<div class="statistics">
+											<p>Цена разработки <strong>10000 рублей</strong></p>
+											<p>Цена заявки <strong>140 рублей</strong></p>
+											<p>Число заявок в неделю <strong>20</strong></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slide-4">
+								<div class="item-works">
+									<div class="icon-work">						
+									</div>
+									<div class="reference">
+										<div class="v-separator" ></div>
+										<div class="statistics">
+											<p>Цена разработки <strong>10000 рублей</strong></p>
+											<p>Цена заявки <strong>140 рублей</strong></p>
+											<p>Число заявок в неделю <strong>20</strong></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slide-5">
+								<div class="item-works">
+									<div class="icon-work">						
+									</div>
+									<div class="reference">
+										<div class="v-separator" ></div>
+										<div class="statistics">
+											<p>Цена разработки <strong>10000 рублей</strong></p>
+											<p>Цена заявки <strong>140 рублей</strong></p>
+											<p>Число заявок в неделю <strong>20</strong></p>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<nav>
+						<div class="arrow-left"><img src="images/arrow_left.png" alt="" title="" /></div>
+						<div class="arrow-right"><img src="images/arrow_right.png" alt="" title="" /></div>
+					</nav>
+				</div>
+			</div>
+			<div id="guarantee">
+				<h2>Гарантия</h2>
+				<div class="adv-wrap flex-v-align">
+					<div class="v-separator" ></div>
+					<div class="guar-items">
+						<p>Я гарантирую наивысшее качество своей работы.<br>Но подобные гарантии дают все!</p>
+						<p>Поэтому я делаю очень просто: не требую никакой предоплаты (Вы оплачиваете только дизайн-макет),<br>если он понравится.</p>
+						<p>Я просто всё делаю, а потом показываю Вам  результат в виде эффективного лендинга,<br>анализа проведённых SPLIT-тестов, полностью настроенной и оптимизированной рекламной кампании.</p>
+						<p>По этой причине я не боюсь работать без предоплаты.</p>
+						<p>Однако, если Вам не понравится, то Вы сможете отказаться от лендинга и не платить за него.</p>
+						<p>В любом случае в Вашем распоряжении останется готовый дизайн-макет лендинга, с которым Вы<br>сможете обратиться к другому разработчику.</p>
+					</div>
+				</div>
+			</div>
+			<div class="request">
+				<h2>Нужен лендинг?</h2>
+				<h3>Заполните форму и я свяжусь с Вами!</h3>
+				<form name="call-back" class="form-bottom">
+					<div class="form-table">
+						<img src="images/call_back_form_name.png" alt="" title=""><input type="text" name="name" maxlength="100" value="" required />
+						<img src="images/call_back_form_phone.png" alt="" title=""><input type="tel" name="phone" pattern='[0-9]{10}' value="" required />
+						<img src="images/call_back_form_email.png" alt="" title=""><input type="email" name="email"  value="" />
+						<label>Введите код с картинки:</label>
+						<input type="text" name="captcha" value="" autocomplete="off" required />
+						<div class="captcha">
+							<img class="change" src="images/update.png" alt="Обновить" />
+							<img class="canvas" src="captcha.php" alt="Капча" />
+						</div>
+					</div>
+					<button class="button-bot" data-hover="Отправить">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<footer id="contacts">
+			<p>Контакты: Телефон: +7(965)284-15-09</p>
+			<p>Copyrigt &copy; 2016. Все права защищены.</p>
+			<p>E-mail: Michael.kyz@gmail.com</p>
+		</footer>
+		
+	</body>
+</html>
